@@ -5,7 +5,7 @@ REMHOST=$1
 REMPORT=${2:-443}
 
 KEYSTORE_PASS=changeit
-KEYTOOL="sudo keytool"
+KEYTOOL="keytool"
 
 # /etc/java-6-sun/security/cacerts
 
